@@ -1,0 +1,13 @@
+external_data_config:
+  external_data_csv: data/external/churn_data.csv
+
+raw_data_config:
+  raw_data_csv: data/raw/churn_data.csv
+  model_var: ['churn', 'number_vemail_messages', 'total_day_calls', 'total_eve_minutes', 'total_eve_charge', 'total_intl_minutes', 'number_customer_service_calls']
+  train_test_split_ratio: 0.2
+  target: churn
+  random_state: 111
+
+processed_data_config:
+  train_data_csv: data/processed/processed_churn_train.csv
+  test_data_csv:  data/processed/processed_churn_test.csv

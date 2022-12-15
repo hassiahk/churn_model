@@ -5,6 +5,10 @@
 click
 Sphinx
 coverage
-awscli
-flake8
+pyyaml
+dvc
+numpy
+pandas
+scikit-learn
+mlflow
 python-dotenv>=0.5.1
